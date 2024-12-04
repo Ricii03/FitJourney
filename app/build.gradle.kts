@@ -69,4 +69,8 @@ dependencies {
     implementation (libs.androidx.room.runtime)
     kapt (libs.androidx.room.compiler)
     implementation (libs.androidx.room.ktx)
+
+    //Library mongodb Local
+    implementation 'io.realm:realm-android-library:10.10.1'
+
 }
